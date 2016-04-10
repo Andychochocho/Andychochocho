@@ -1,8 +1,13 @@
 <nav>
-    <div class="nav-wrapper green darken-3">
-      <a href="#" class="brand-logo">Andrew Cho</a>
+    <div class="nav-wrapper white">
+      <!-- <a href="#" class="brand-logo">Andrew Cho</a> -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">About me</a></li>
+        <li>
+          {{#link-to 'index'}}<span class="nav-link-color">About</span>{{/link-to}}
+        </li>
+        <li>
+          <a href="#"><span class="nav-link-color">Contact</span></a>
+        </li>
       </ul>
     </div>
   </nav>

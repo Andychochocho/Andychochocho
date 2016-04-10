@@ -1,2 +1,20 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
+
+.nav-link-color {
+  color: #2E2E2E;
+  font-family: 'Oxygen', serif;
+  font-size: 1.3rem;
+  line-height: 4rem;
+}
+
+nav {
+  background: 0 0;
+  height: 110px;
+  padding: 30px;
+  box-shadow: none;
+}
+
+#nav-mobile {
+  float: right!important;
+}
