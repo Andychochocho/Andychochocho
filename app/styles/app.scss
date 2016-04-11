@@ -12,9 +12,34 @@ nav {
   background: 0 0;
   height: 110px;
   padding: 30px;
-  box-shadow: none;
+  box-shadow: none !important;
+}
+
+.icons-column {
+  text-align: center;
 }
 
 #nav-mobile {
   float: right!important;
+}
+
+#icon-color {
+  color: white;
+}
+
+#facebook-icon {
+  color: #3b5998;
+}
+
+#linkedin-icon {
+  color: #0077B5;
+}
+
+#github-icon {
+  color: black;
+}
+
+#meetup-icon {
+  position: relative;
+  top: 13px;
 }
