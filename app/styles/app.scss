@@ -26,6 +26,12 @@ section, footer {
   font-family: 'Oxygen', serif;
   font-size: 1.3rem;
   line-height: 4rem;
+  // background-color: none;
+}
+
+.nav-link-background a:hover{
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .nav-link-logo {

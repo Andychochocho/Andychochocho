@@ -5,10 +5,10 @@
     </h1>
     <!-- <a href="#" class="brand-logo">Andrew Cho</a> -->
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li>
-        {{#link-to 'index'}}<span class="nav-link-color">About</span>{{/link-to}}
+      <li class="nav-link-background">
+        {{#link-to 'about'}}<span class="nav-link-color">About</span>{{/link-to}}
       </li>
-      <li>
+      <li class="nav-link-background">
         <a href="#"><span class="nav-link-color">Contact</span></a>
       </li>
     </ul>
@@ -16,8 +16,8 @@
 </nav>
 
 <section>
-
 </section>
+{{outlet}}
 
 <footer>
   <div class="icons-column">
