@@ -28,6 +28,26 @@ section, footer {
   line-height: 4rem;
 }
 
+.nav-link-logo {
+  color: white;
+  float: left;
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+  padding-left: 17px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #EF4723;
+  font-family: 'Merriweather',serif;
+}
+
+h1 {
+  line-height: 1.7rem;
+}
+
 nav {
   background: 0 0;
   height: 110px;
