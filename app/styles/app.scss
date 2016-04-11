@@ -1,6 +1,26 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex: 1 0 auto;
+}
+
+section, footer {
+  position: relative;
+  top: 25em;
+  padding: 2em;
+}
+
 .nav-link-color {
   color: #2E2E2E;
   font-family: 'Oxygen', serif;
@@ -12,34 +32,54 @@ nav {
   background: 0 0;
   height: 110px;
   padding: 30px;
-  box-shadow: none !important;
+  box-shadow: none;
 }
 
 .icons-column {
-  text-align: center;
 }
 
 #nav-mobile {
   float: right!important;
 }
 
-#icon-color {
+.icon-color {
   color: white;
+  // margin-left: 2px;
 }
 
 #facebook-icon {
+}
+
+#facebook-icon-border {
   color: #3b5998;
 }
 
+#twitter-icon, #twitter-icon-border {
+}
+
 #linkedin-icon {
+}
+
+#linkedin-icon-border {
   color: #0077B5;
 }
 
 #github-icon {
+}
+
+#github-icon-border {
   color: black;
 }
 
 #meetup-icon {
   position: relative;
   top: 13px;
+  align-self: flex-end;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
