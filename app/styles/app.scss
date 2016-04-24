@@ -29,17 +29,12 @@ section, footer {
   // background-color: none;
 }
 
-.center {
-
-}
-
 .nav-link-background a:hover{
   background-color: transparent;
   text-decoration: none;
 }
 
 .nav-link-logo {
-  color: white;
   float: left;
   font-size: 2rem;
   padding-top: 20px;
@@ -65,26 +60,16 @@ nav {
   box-shadow: none;
 }
 
-.icons-column {
-}
-
 #nav-mobile {
   float: right!important;
 }
 
 .icon-color {
   color: white;
-  // margin-left: 2px;
-}
-
-#facebook-icon {
 }
 
 #facebook-icon-border {
   color: #3b5998;
-}
-
-#twitter-icon, #twitter-icon-border {
 }
 
 #linkedin-icon {
@@ -93,10 +78,6 @@ nav {
 
 #linkedin-icon-border {
   color: #0077B5;
-}
-
-#github-icon {
-  // margin: 5px;
 }
 
 #github-icon-border {
@@ -117,6 +98,11 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 0px;
+  margin-bottom: 40px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .row-home {
@@ -124,18 +110,22 @@ nav {
   margin: 0px;
   width: 100%;
   height: 400px;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .col h3 {
+  margin-top: 50px;
   font-family: 'Oxygen', serif;
+  font-size: 2.5rem;
   text-align: center;
 }
 
-.col h4 {
+.col p {
   margin-top: 50px;
   font-family: 'Oxygen', serif;
   text-align: center;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 .col img {
@@ -145,7 +135,32 @@ nav {
   height: 150px;
 }
 
-#portland-sign {
+#resume {
+  margin:auto;
+  display:block;
+  }
+
+#about-banner {
+  margin: 0px;
   width: 100%;
-  height: 200px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.large-9 {
+  width: 65.88078%;
+  margin-left: 17.05961%;
+}
+
+.row {
+  margin-top: 30px;
+  max-width: 68em;
+}
+
+body {
+  background-color: azure;
+}
+
+.large-9 p {
+  font-size: 18px;
 }
