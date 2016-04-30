@@ -43,7 +43,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/Andychochocho.github.io/dist';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
